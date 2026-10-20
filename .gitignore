@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and credentials — NEVER commit these
+token.json
+client_secrets.json
+sa.json
+*.json
+
+# Local development artifacts
+verify_format.py
+.atl/
+
+# OS / editor
+.DS_Store
+Thumbs.db

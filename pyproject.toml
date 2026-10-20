@@ -1,0 +1,15 @@
+[project]
+name = "mcp-docs"
+version = "0.1.0"
+description = "MCP server that lets an AI agent read and update Google Docs from a URL or document ID."
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=2",
+    "google-api-python-client>=2.100",
+    "google-auth>=2.20",
+    "google-auth-oauthlib>=1.0",
+]
+
+# This is an application, not a distributable package: do not try to build/install it.
+[tool.uv]
+package = false
